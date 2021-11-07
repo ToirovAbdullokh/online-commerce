@@ -1,0 +1,218 @@
+@media(max-width:1400px){
+    .tab .navbar-brand{
+        padding-left: 7% !important;
+    }
+    .sale-inner{
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+    .sale__block{
+        width: 47.5% !important;
+    }
+    .sale__block img{
+        width: 100% !important;
+    }
+    .grid2{
+        display: flex;
+    }
+    
+}
+@media(max-width:1200px){
+    .carousel-indicators{
+        left: 33% !important;
+    }
+    .carousel-item img{
+        margin: 0 23%;
+    }
+    .carousel-inner .carousel-item:nth-child(3) img{
+        margin: 19% 43% !important;
+    }
+    .ps5-left{
+        width: 50% !important;
+    }
+    .ps5-right{
+        width: 50% !important;
+    }
+    .ps5-right img{
+        width: 100% !important;
+    }
+    .top-seller__block-info{
+        bottom: -3% !important;
+    }
+    .sale-inner__link span{
+        padding: 5px 8px !important;
+    }
+    
+}
+@media(max-width:992px){
+    .search__btn{
+        width: 12%;
+    }
+    .navbar-toggler{
+        margin: 0 7%;
+    }
+    .top-seller__block-info{
+        bottom: -12% !important;
+    }
+    .sale-inner__link{
+        margin-top: 7% !important;
+    }
+    .xbox__inner-right .sale-inner__link a{
+        font-size: 10px !important;
+    }
+    .xbox__block .sale-inner__link{
+        bottom: 12% !important;
+    }
+
+}
+@media(max-width:768px){
+    .header-links{
+        margin: 0 10px !important;
+    }
+    .headers-links i{
+        font-size: 10px !important;
+    }
+    .header-links a{
+        font-size: 10px !important;
+    }
+    .search-navbar{
+        justify-content: center !important;
+    }
+    .search .navbar-brand{
+        margin-right: 0 !important;
+    }
+    .search__btn{
+        padding: 5px !important;
+    }
+    .search__btn i{
+        margin-right: 20px !important;
+    }
+    .search__btn p{
+        display: none !important;
+    }
+    .navbar-toggler{
+        margin: 0 15%;
+    }
+    .carousel-item img{
+        margin: 0;
+    }
+    .cell-phone__block{
+        width: 50% !important;
+    }
+    .sale-inner{
+        grid-gap: 4% !important;
+    }
+    .ps5-left p{
+        font-size: 30px !important;
+        margin: 2% 0 7% !important;
+        line-height: 30px !important;
+    }
+    .ps5-left a{
+        font-size: 10px !important;
+        line-height: 25px !important;
+        padding: 8px 16px !important;
+    }
+    .top-seller__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-seller__block{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .top-seller__block-info{
+        bottom: 8% !important;
+        left: 20% !important;
+    }
+    .top-seller__block p{
+        font-size: 28px !important;
+        line-height: 50px !important;
+        margin-bottom: 10px !important;
+    }
+    .top-seller__block small{
+        font-size: 24px !important;
+    }
+    .top-seller__block:nth-child(2) .top-seller__block-info{
+        bottom: -3% !important;
+        left: 38% !important;
+    }
+    .xbox__block .sale-inner__link{
+        display: block;
+        top: -23% !important;
+        left: 1% !important;
+    }
+    .sale-inner__link span{
+        padding: 3px !important;
+    }
+    .xbox__inner-left h2{
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+    .xbox__inner-left p{
+        font-size: 15px !important;
+        line-height: 23px !important;
+        width: 50% !important;
+        margin-bottom: 22px !important;
+    }
+}
+@media(max-width:760px){
+    .sale__block-info{
+        bottom: 0;
+    }
+    .sale__title{
+        font-size: 11px !important;
+        margin-bottom: 0 !important;
+    }
+    .sale__price{
+        font-size: 14px !important;
+    }
+    .sale__discount{
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .sale__discount-text{
+        font-size: 11px !important;
+    }
+    .footer-top__sign-up-btn button{
+        padding: 10px 12px !important;
+    }
+}
+@media(max-width:500px){
+    .xbox__block .sale-inner__link{
+        top: -28% !important;
+        left: 0 !important;
+    }
+}
+@media(max-width:425px){
+    .btn{
+        padding: 0 !important;
+    }
+    .header-links{
+        margin: 0 4px !important;
+    }
+    .header-links a{
+        line-height: 0 !important;
+    }
+    .search-form{
+        width: 74% !important;
+    }
+    .search__btn i{
+        margin-right: 0 !important;
+        padding: 6px !important;
+    }
+    .cell-phone__block{
+        width: 100% !important;
+    }
+    .navbar-toggler{
+        margin: 0 21%;
+    }
+}
+@media(max-width:375px){
+    .ps5-left p{
+        font-size: 15px !important;
+    }
+    .ps5-left a{
+        font-size: 7px !important;
+    }
+}

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/root.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <ul class="header-block">
+                <div class="dropdown">
+                    <button class="btn  dropdown-toggle header-btn" type="button" id="dropdownMenu2"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Lang
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li><button class="dropdown-item" type="button">Eng</button></li>
+                        <li><button class="dropdown-item" type="button">Rus</button></li>
+                    </ul>
+                </div>
+                <li class="header-links">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:(907) 555-0101">(907) 555-0101</a>
+                </li>
+                <li class="header-links">
+                    <i class="fas fa-user-alt"></i>
+                    <a href="#!">Sign up</a>
+                </li>
+                <li class="header-links">
+                    <i class="fas fa-shopping-cart"></i>
+                    <a href="#!">Cart</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="search">
+            <nav class="navbar">
+                <div class="container search-navbar">
+                    <a class="navbar-brand"><img src="img/Logo.png" alt=""></a>
+                    <form class="d-flex col-6 search-form">
+                        <input class="form-control" type="search" placeholder="What are you looking for?"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success d-flex search__btn" type="submit"><i
+                                class="fas fa-search"></i>
+                            <p>SEARCH&nbsp;OUR&nbsp;STORE</p>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </section>
+        <section class="tab">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container justify-content-center">
+                    <a class="navbar-brand col-1" href="#">Cell Phones</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse col-8 justify-content-center" id="navbarNavAltMarkup">
+                        <div class="navbar-nav tab-navbar-link">
+                            <div class="tab-link-with-href">
+                                <p>
+                                    <a class="btn tv-video-btn" data-bs-toggle="collapse" href="#collapsecell-phones"
+                                        role="button" aria-expanded="false" aria-controls="collapsecell-phones">
+                                        Computers&Laptop
+                                    </a>
+                                </p>
+                                <div class="collapse position-relative" id="collapsecell-phones">
+                                    <div class="card card-body d-flex">
+                                        <div class="tv-collapse">
+                                            <h3>Computers</h3>
+                                            <a href="#!" class="tv-collapse__link">iMac</a>
+                                            <a href="#!" class="tv-collapse__link">Samsung</a>
+                                            <a href="#!" class="tv-collapse__link">LG</a>
+                                            <a href="#!" class="tv-collapse__link">Huawei</a>
+                                            <a href="#!" class="tv-collapse__link">Lenovo</a>
+                                            <a href="#!" class="tv-collapse__link">More...</a>
+                                        </div>
+                                        <div class="video-colapse">
+                                            <h3>Laptop</h3>
+                                            <a href="#!">Xiaomi</a>
+                                            <a href="#!">Macbook</a>
+                                            <a href="#!">Samsung</a>
+                                            <a href="#!">BQ</a>
+                                            <a href="#!">Acer</a>
+                                            <a href="#!">More..</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-link-with-href">
+                                <p>
+                                    <a class="btn tv-video-btn" data-bs-toggle="collapse" href="#collapseExample"
+                                        role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Tv&Video
+                                    </a>
+                                </p>
+                                <div class="collapse position-relative" id="collapseExample">
+                                    <div class="card card-body d-flex">
+                                        <div class="tv-collapse">
+                                            <h3>TV</h3>
+                                            <a href="#!" class="tv-collapse__link">Samsung</a>
+                                            <a href="#!" class="tv-collapse__link">LG</a>
+                                            <a href="#!" class="tv-collapse__link">Artel</a>
+                                            <a href="#!" class="tv-collapse__link">Apple TV</a>
+                                        </div>
+                                        <div class="video-colapse">
+                                            <h3>Video</h3>
+                                            <a href="#!">LG</a>
+                                            <a href="#!">Panasonic</a>
+                                            <a href="#!">Sony</a>
+                                            <a href="#!">More..</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="nav-link" href="#">Asseccories</a>
+                            <div class="tab-link-with-href">
+                                <p>
+                                    <a class="btn tv-video-btn" data-bs-toggle="collapse" href="#collapsehome-applience"
+                                        role="button" aria-expanded="false" aria-controls="collapsehome-applience">
+                                        Home&Applience
+                                    </a>
+                                </p>
+                                <div class="collapse position-relative" id="collapsehome-applience">
+                                    <div class="card card-body d-flex">
+                                        <div class="tv-collapse">
+                                            <h3>Home</h3>
+                                            <a href="#!" class="tv-collapse__link">Safe&nbsp;home</a>
+                                            <a href="#!" class="tv-collapse__link">Air&nbsp;Tag</a>
+                                            <a href="#!" class="tv-collapse__link">Clean&nbsp;home</a>
+                                            <a href="#!" class="tv-collapse__link">More...</a>
+                                        </div>
+                                        <div class="video-colapse">
+                                            <h3>Applience</h3>
+                                            <a href="#!">Block</a>
+                                            <a href="#!">Clean&nbsp;home</a>
+                                            <a href="#!">Clean&nbsp;home</a>
+                                            <a href="#!">More..</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-link-with-href">
+                                <p>
+                                    <a class="btn tv-video-btn" data-bs-toggle="collapse" href="#collapsevideo-games"
+                                        role="button" aria-expanded="false" aria-controls="collapsevideo-games">
+                                        Video&nbsp;Games&Consoles
+                                    </a>
+                                </p>
+                                <div class="collapse position-relative" id="collapsevideo-games">
+                                    <div class="card card-body d-flex">
+                                        <div class="tv-collapse">
+                                            <h3>Video&nbsp;Games</h3>
+                                            <a href="#!" class="tv-collapse__link">Safe&nbsp;home</a>
+                                            <a href="#!" class="tv-collapse__link">Air&nbsp;Tag</a>
+                                            <a href="#!" class="tv-collapse__link">Clean&nbsp;home</a>
+                                            <a href="#!" class="tv-collapse__link">More...</a>
+                                        </div>
+                                        <div class="video-colapse">
+                                            <h3>Consoles</h3>
+                                            <a href="#!">Block</a>
+                                            <a href="#!">Clean&nbsp;home</a>
+                                            <a href="#!">Clean&nbsp;home</a>
+                                            <a href="#!">More..</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section class="apple-info mb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="apple-info__left col-6">
+
+                    </div>
+                    <div class="apple-info__right col-6">
+                        <h2>Apple iPhone 12 Pro Max 128GB (Gray)</h2>
+                        <p>1300$</p>
+                        <h4>Product Highlights</h4>
+                        <ul class="apple-info__right-list">
+                            <li><i class="fas fa-circle"></i>
+                                <p>128 GB ROM</p>
+                            </li>
+                            <li><i class="fas fa-circle"></i>
+                                <p>13.72 cm (5.4 inch) Super Retina XDR Display</p>
+                            </li>
+                            <li><i class="fas fa-circle"></i>
+                                <p>12MP + 12MP | 12MP Front Camera</p>
+                            </li>
+                            <li><i class="fas fa-circle"></i>
+                                <p>A14 Bionic Chip with Next Generation Neural Engine Processor</p>
+                            </li>
+                            <li><i class="fas fa-circle"></i>
+                                <p>Ceramic Shield</p>
+                            </li>
+                            <li><i class="fas fa-circle"></i>
+                                <p>IP68 Water Resistance</p>
+                            </li>
+                            <li><i class="fas fa-circle"></i>
+                                <p>All Screen OLED Display</p>
+                            </li>
+                            <li><i class="fas fa-circle"></i>
+                                <p>The shipment for this product will begin from 14th November 2020</p>
+                            </li>
+                        </ul>
+                        <div class="apple-info__right-link d-flex mb-4 align-items-center">
+                            <div class="apple-info__right-link-block d-flex">
+                                <a href="#!"><i class="fas fa-shopping-cart"></i>CART</a>
+                            </div>
+                            <div class="apple-info__right-link-block">
+                                <a href="#!">BUY&nbsp;NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="playstation-vr">
+            <div class="container">
+                <div class="row">
+                    <div class="playstation-vr__left col-6">
+                        <img src="img/playstation-vr-img1.png" alt="">
+                    </div>
+                    <div class="playstation-vr__right col-6">
+                        <h2>Playstation VR</h2>
+                        <p>Over 500 games and experiences and counting. See them all</p>
+                        <div class="playstation-vr__right-link d-flex justify-content-center">
+                            <a href="#!">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer-top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="footer-top__img col-xl-3 mb-3">
+                        <a href="#header"><img src="img/footer-logo.png" alt=""></a>
+                    </div>
+                    <div class="footer-top__sign-up col-xl-5 mb-3">
+                        <p>Subscribe to Newslatter</p>
+                        <div class="footer-top__sign-up-btn d-flex">
+                            <input type="text">
+                            <button><a href="#!">SIGN&nbsp;UP</a></button>
+                        </div>
+                    </div>
+                    <div class="footer-top__media col-xl-4">
+                        <a href="#!"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="#!"><i class="fab fa-instagram"></i></a>
+                        <a href="#!"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-center footer-bottom__inner">
+                    <span><a href="#!" class="footer-bottom__link">News</a></span>
+                    <span><a href="#!" class="footer-bottom__link">Help</a></span>
+                    <span><a href="#!" class="footer-bottom__link">Contact</a></span>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="style/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

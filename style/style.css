@@ -1,0 +1,587 @@
+@import 'root.css';
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* HTML index start */
+
+/* header start */
+.header{
+    background: var(--text);
+}
+.header-block{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+.header-btn{
+    background: var(--text);
+    color: white;
+}
+.btn:hover{
+    color: white;
+}
+.header-links{
+    margin: 0 40px;
+}
+.header-select{
+    margin: 0 40px;
+}
+.header-links i{
+    color: white;
+    font-size: 20px;
+}
+.header-links a{
+    color: white;
+    margin-left: 5px;
+    font-size: 14px;
+    line-height: 70px;
+}
+/* header end */
+
+/* main start */
+
+/* search start */
+.navbar>.container{
+    justify-content: start;
+}
+.search .navbar-brand{
+    margin-right: 110px;
+}
+.search__btn{
+    align-items: center;
+    background: var(--text);
+    padding: 10px;
+}
+.search__btn i{
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+.search__btn p{
+    color: white;
+    margin-bottom: 0;
+}
+/* search end */
+
+/* tab start */
+.tab__left img{
+    font-size: 44px;
+}
+.tab__left p{
+    margin-left: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 0;
+    color: var(--text);
+}
+
+
+/* tab end */
+
+/* shop-now start */
+.shop-now{
+    margin-bottom: 50px;
+}
+.carousel-item{
+    width: 600px;
+    height: 640px;
+    object-fit: contain;
+}
+.carousel-inner .carousel-item:nth-child(3) img{
+    margin: 19%;
+}
+.carousel-indicators{
+    width: 40%;
+    right: 0;
+    left: 78%;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.carousel-indicators [data-bs-target]{
+    width: 7%;
+    height: 5px;
+    border-radius: 50%;
+    margin: 0 8%;
+    background: gray;
+    transition: al .5s;
+}
+.carousel-indicators [data-bs-target]:hover{
+    transform: scale(1.5);
+    background: var(--text);
+}
+.shop-now__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.shop-now__right h3{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 70px;
+    color: var(--text);
+    margin-bottom: 13%;
+}
+.shop-now__right a{
+    background: var(--text);
+    padding: 12px 46px;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+/* shop-now end */
+
+/* sale start */
+.sale{
+    margin-bottom: 70px;
+}
+.sale-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 235px 235px;
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+.sale__block{
+    position: relative;
+    background: #F9F9F9;
+}
+.grid1{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.grid2{
+    grid-column: span 2;
+}
+.sale__discount{
+    width: 70px;
+    height: 70px;
+    background: #313131;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.sale__discount-text{
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.sale__block-info{
+    position: absolute;
+    bottom: 3%;
+    left: 4%;
+}
+.sale__title{
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--text);
+}
+.sale__price{
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 24px;
+    color: gray;
+}
+.sale__block:nth-child(3) .sale__block-info{
+    top: 7% !important;
+    left: 4% !important;
+}
+.sale__block:nth-child(3) .sale__discount{
+    top: 63%;
+}
+.sale__block:nth-child(4) .sale__block-info{
+    top: 7% !important;
+    left: 4% !important;
+}
+.sale__block:nth-child(4) .sale__discount{
+    top: 63%;
+}
+.sale-inner__link{
+    display: flex;
+    justify-content: center;
+}
+.sale-inner__link a{
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 13px 28px;
+}
+.sale-inner__link span{
+    background: var(--text);
+}
+/* sale end */
+
+/* cell-phone start */
+.cell-phone__text p{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 30px;
+    color: var(--text);
+}
+.cell-phone__block{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-phone__info{
+    position: absolute;
+    bottom: 7%;
+    text-align: center;
+}
+.cell-phone__info p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--text);
+    margin-bottom: 5px;
+}
+.cell-phone__info small{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: gray;
+}
+.sale-inner__link{
+    margin-top: 2%;
+}
+/* cell-phone end */
+
+/* computers start */
+.computers__text p{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 30px;
+    color: var(--text);
+}
+.computers__block{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.computers__info{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+/* computers end */
+
+
+/* ps5 start */
+.ps5-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ps5-left img{
+    width: 45%;
+    height: 15%;
+}
+.ps5-left p{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: var(--text);
+    margin: 20px 0 70px;
+}
+.ps5-left a{
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    padding: 13px 25px;
+    background-color: var(--text);
+}
+.ps5-right img{
+    width: 100%;
+}
+/* ps5 end*/
+
+/* top-seller start */
+.top-seller{
+    margin-bottom: 50px;
+}
+.top-seller__inner{
+    display: flex;
+    text-align: center;
+    
+}
+.top-seller__text p{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: var(--text);
+    margin-bottom: 30px;
+}
+.top-seller__block{
+    position: relative;
+}
+.top-seller__block img{
+    width: 100%;
+}
+.top-seller__block p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--text);
+    margin-bottom: 5px;
+}
+.top-seller__block small{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: gray;
+}
+.top-seller__block-info{
+    position: absolute;
+    bottom: 9%;
+    left: 11%;
+}
+.top-seller__block:nth-child(2) .top-seller__block-info{
+    left: 37%;
+}
+/* top-seller end */
+/* main end */
+
+/* footer start */
+
+/* footer-top start */
+.footer{
+    background-color: var(--text);
+    padding: 30px 0 45px;
+}
+.footer-top__sign-up p{
+    margin-bottom: 5px;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+.footer-top__sign-up-btn input{
+    width: 54%;
+}
+.footer-top__sign-up-btn button{
+    padding: 13px 59px;
+    background-color: var(--text);
+}
+.footer-top__sign-up-btn a{
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+.footer-top__media i{
+    font-size: 50px;
+    color: white;
+    margin: 0 8px;
+}
+/* footer-top end */
+
+/* footer-bottom start */
+.footer-bottom{
+    margin-top: 50px;
+}
+.footer-bottom__inner span{
+    padding: 0 30px;
+}
+.footer-bottom__inner span:hover{
+    background: white;
+}
+.footer-bottom__inner span:hover .footer-bottom__link{
+    color: var(--text);
+    text-decoration: underline;
+}
+.footer-bottom__link{
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    transition: .5s;
+}
+
+/* footer-bottom end */
+/* footer end */
+
+/* HTML index end */
+
+
+/* HTML desktop-3 start */
+
+/* main start */
+
+/* xbox start */
+.xbox__inner{
+    display: flex;
+    flex-direction: column;
+}
+.xbox__inner-left{
+    display: flex;
+    flex-direction: column;
+}
+.xbox__inner-left h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+.xbox__inner-left p{
+    font-size: 24px;
+    line-height: 33px;
+    color: var(--text);
+}
+.xbox__block{
+    position: relative;
+}
+.xbox__block  img{
+    width: 100%;
+}
+.xbox__block .sale-inner__link{
+    position: absolute;
+    bottom: 18%;
+    left: 4%;
+}
+.sale-inner__link span{
+    padding: 13px 28px;
+}
+.sale-inner__link a{
+    padding: 0;
+}
+.xbox__block-link{
+    margin-top: 0;
+}
+.page-item .page-link{
+    border: none;
+    border-right: 2px solid black;
+    color: var(--text);
+}
+.page-link:hover{
+    z-index: 0;
+    background: transparent;
+    color: var(--text);
+}
+.page-item:first-child .page-link{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.page-item:last-child .page-link{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+}
+.xbox-navigation{
+    margin: 3% 0;
+}
+/* xbox end */
+
+
+/* main end */
+
+/* HTML desktop-3 end */
+
+/* HTML desktop-4 start */
+
+
+/* main start */
+
+/* apple-info start */
+.apple-info__right h3{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 70px;
+    color: black;
+    margin-bottom: 40px;
+}
+.apple-info__right p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 70px;
+    color: black;
+    margin-bottom: 20px;
+}
+.apple-info__right h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 70px;
+    color: black;
+    margin-bottom: 10px;
+}
+.apple-info__right-list li{
+    display: flex;
+    align-items: center;
+}
+.apple-info__right-list i{
+    margin-right: 15px;
+    font-size: 10px;
+    color: var(--text);
+}
+.apple-info__right-list p{
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 25px;
+    color: black;
+}
+.apple-info__right-link-block a{
+    color: white;
+    font-size: 20px;
+    padding: 12px 40px;
+    background-color: var(--text);
+}
+.apple-info__right-link-block i{
+    font-size: 17px;
+    margin-right: 5px;
+}
+.apple-info__right-link .apple-info__right-link-block:nth-child(1){
+    margin-right: 30px;
+}
+/* apple-info end */
+
+/* playstation-vr start */
+.playstation-vr__left img{
+    width: 100%;
+}
+.playstation-vr__right h2{
+    font-weight: 600;
+font-size: 48px;
+color: var(--text);
+margin-bottom: 39px;
+}
+.playstation-vr__right p{
+    font-size: 24px;
+    color: var(--text);
+    margin-bottom: 116px;
+    margin-left: 15px;
+}
+.playstation-vr__right-link a{
+    font-size: 18px;
+    color: white;
+    padding: 13px 38px;
+    background-color: var(--text);
+}
+
+/* playstation-vr end */
+
+/* main end */
+
+
+
+/* HTML desktop-4 end */
